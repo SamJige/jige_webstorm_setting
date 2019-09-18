@@ -1,4 +1,8 @@
 <keymap version="1" name="Eclipse copy" parent="Eclipse">
+  <action id="CloseActiveTab" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="ctrl alt down" />
     <keyboard-shortcut first-keystroke="alt s" />
